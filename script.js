@@ -30,3 +30,21 @@ products.forEach(product => {
   `;
   container.appendChild(card);
 });
+const products = [
+  {
+    name: "Product 1",
+    image: "https://via.placeholder.com/300x200",
+    link: "https://example.com/product1"
+  },
+  {
+    name: "Product 2",
+    image: "https://via.placeholder.com/300x200",
+    link: "https://example.com/product2"
+  },
+  // Tum yaha naya product add kar sakte ho
+  {
+    name: "Product 3",
+    image: "https://via.placeholder.com/300x200",
+    link: "https://example.com/product3"
+  }
+];
